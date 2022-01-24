@@ -9,7 +9,7 @@ public class Task5 {
             return 1;
         }
         int left = totalPaths(x - 1, y);
-        int down = totalPaths(x, y - 1);;
+        int down = totalPaths(x, y - 1);
         return left + down;
     }
 
